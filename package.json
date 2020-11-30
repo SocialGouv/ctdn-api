@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@koa/cors": "3.1.0",
-    "@koa/router": "9.4.0",
+    "@koa/router": "10.0.0",
     "@socialgouv/kali-data": "^2.13.0",
     "@socialgouv/legi-data": "1.46.0",
     "cross-env": "7.0.2",
