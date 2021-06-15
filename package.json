@@ -33,7 +33,7 @@
     "html-to-text": "5.1.1",
     "koa": "2.13.0",
     "npmlog": "4.1.2",
-    "redis": "3.0.2",
+    "redis": "3.1.1",
     "unist-util-flat-filter": "1.0.0"
   },
   "devDependencies": {
