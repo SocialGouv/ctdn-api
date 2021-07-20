@@ -1167,12 +1167,12 @@
     eslint-plugin-simple-import-sort "^5.0.3"
     eslint-plugin-sort-keys-fix "^1.1.1"
 
-"@socialgouv/kali-data@^2.13.0":
-  version "2.13.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/kali-data/-/kali-data-2.13.0.tgz#3daf8e0494f989bccbdf5dc448d429d9b621df7a"
-  integrity sha512-0VAmJa03UtXLTCP37pMLylDHUyx6lRvkZwuxll3NOX3TPOkKJ4AR6fE5LyArd+sxq6CdmM5p+krM2GInZw1a6g==
+"@socialgouv/kali-data@^2.110.0":
+  version "2.110.0"
+  resolved "https://registry.yarnpkg.com/@socialgouv/kali-data/-/kali-data-2.110.0.tgz#e87b139d372b6d63b73e3cf310d5cec939d18dc8"
+  integrity sha512-X5SThjHzVgC2NrNtJpGNCND8mV03WoOmxIaF5utulD3GWwWK1UjzuYLOpM4VqVcFC9mrALBWY4RHesk3wZgwcg==
   dependencies:
-    unist-util-find "1.0.1"
+    unist-util-find "1.0.2"
     unist-util-flat-filter "1.0.0"
     unist-util-parents "1.0.3"
 
@@ -6377,6 +6377,14 @@ unist-util-find@1.0.1:
   dependencies:
     lodash.iteratee "^4.5.0"
     remark "^5.0.1"
+    unist-util-visit "^1.1.0"
+
+unist-util-find@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/unist-util-find/-/unist-util-find-1.0.2.tgz#4d5b01a69fca2a382ad4f55f9865e402129ecf56"
+  integrity sha512-ft06UDYzqi9o9RmGP0sZWI/zvLLQiBW2/MD+rW6mDqbOWDcmknGX9orQPspfuGRYWr8eSJAmfsBcvOpfGRJseA==
+  dependencies:
+    lodash.iteratee "^4.5.0"
     unist-util-visit "^1.1.0"
 
 unist-util-flat-filter@1.0.0:
